@@ -1,16 +1,59 @@
 print("learn about the USA future")
-
+print(" ")
 answer= input("are you interested in project 2025? ")
 
 if answer == "yes":
     print("thats great")
     answer_two= input("do you know who wants to impliment it? ")
     if answer_two == "yes":
+        print(" ")
         print("thats great, kevin roberts is estatic that the republican party won in the 2024 election")
+        answer_five= input("would you like me to list some policies? ")
+    if answer_five == "yes":
+        print(" ")
+        print("overturning roe V wade which bans abortion across all states")
+        print("")
+        print("decreasing taxes for the rich while while increasing taxes for the working class")
+        print(" ")
+        print("cut funding for the DOE, national flood insurance, TSA ")
+        print(" ")
+        print("eliminate programs that help the lower income class like medicaid")
+    answer_six= input("would you like to stop this")
+    if answer_six == "yes":
+        print("thats great, sign petitions to stop it from taking place")
+        print("heres one to start with https://www.change.org/p/stop-project-2025-protect-our-rights-and-choices")
     elif answer_two == "no":
         print("thats okay, kevin roberts who directed the project idea for the replucan party")
+        print("here are some policies from project 2025")
+        print(" ")
+        print("overturning roe V wade which bans abortion across all states")
+        print("")
+        print("decreasing taxes for the rich while while increasing taxes for the working class")
+        print(" ")
+        print("cut funding for the DOE, national flood insurance, TSA ")
+        print(" ")
+        print("eliminate programs that help the lower income class like medicaid")
+        print("many people are trying to stop the project from taking place")
+        print("heres a link to a petion:https://www.change.org/p/stop-project-2025-protect-our-rights-and-choices.")
 elif answer == "no":
     print("then lets talk about climate change")
     answer_three= input("do you know what causes it? ")
     if answer_three == "yes":
-        print("thats good, there are so many causes like greenhouse gases,")
+        print("thats good, there are so many causes like greenhouse gases that causes the weather to face severe issues")
+        print("climate change also effects wildlife as many animals are becoming purged of their natural habitats")
+    answer_four= input("what is one way to slow down climate change") 
+    if answer_four == "recycle" or answer_four == "save water":
+        print("yes!things like recycling, saving water/power, and signing petions")
+        print("can really make an impact, especially if more people do it")
+    answer_seven= input("do you try to save the envirment? ")
+    if answer_seven == "yes":
+        print("im glad you do, thank you for putting in effort of saving our planet")
+        print("project 2025 threatens the enviroment dearly")
+        print("heres an article to catch you up https://yaleclimateconnections.org/2024/07/what-project-2025-would-do-to-climate-policy-in-the-us/")
+    if answer_seven == "no":
+        print("well these are important issues that go hand and hand")
+        print("its important to stay educated on issues that effect everyones lives")
+    if answer_three == "no":
+        print("thats alright there are many causes like greenhouse gasses")
+        print("using fossil fues, wasting water, lots of waste, and more")
+        print("its important to stay educated on issues that effect everyones lives")
