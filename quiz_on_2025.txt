@@ -1,0 +1,23 @@
+print("quiz game")
+
+answer= input("are you interested in project 2025 ")
+
+
+if answer == "yes":
+    print("thats great")
+    answer_two= input("do you know who wants to impliment it? ")
+elif answer == "no":
+        print("thats okay, its the rebublican party")
+        print("they are trying to reshape the goverment of the USA")
+    answer_three= input("how about climate change ")
+    if answer_three == "yes":
+        print("thats great, climate change is important")
+        print("climate hange is bad")
+        
+
+    if answer_two == "the republican party" or answer_two == "the goverment":
+        print("yes thats correct")
+        print("they are trying to take away rights")
+    elif answer_two == "no":
+            print("thats okay, its the rebublican party")
+            print("they are trying to reshape the goverment of the USA")
