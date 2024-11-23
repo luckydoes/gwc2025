@@ -18,16 +18,22 @@ elif answer == "no":
     if answer_three == "no":
         print("well fun fact, humans have been the leading cause of climate change since the industrial revolution")
 print(" ")
+import time
+    
+time.sleep(5) # Wait for 5 seconds
 print("do you know who's rights they're trying to take away?")
 print("1. LGBTQ+ individuals  2. Women")
 print("3. Immigrants          4. All of the above")
 print("")
 answer = input("Answer: ")
-if answer == "All of the above" or answer == "4" or answer == "1": 
+if answer == "All of the above" or answer == "4": 
     print("That's right! They're taking many rights such as abortion, transgender expression and taking away the opportunity for immigrants to establish citizenship here")
 else:
     print("That's true, but did you know they're trying to take away all of their rights? They're taking many rights such as abortion, transgender expression and taking away the opportunity for immigrants to establish citizenship here")
 print(" ")
+import time
+    
+time.sleep(10) # Wait for 10 seconds
 print("What do you think about climate change?")
 print("1. I don't really care                                                2. It's an issue but for future generations")
 print("3. It's a big issue we should be doing all that we can to prevent it  4. Honestly I don't know much about it")
@@ -38,3 +44,39 @@ if answer == "1" or answer == "2" or answer == "3":
     print("Well it doesn't matter anyway because project 2025 is planning on cutting all efforts to combat it because they think it's a waste of money")
 else:
     print("That's ok!, Climate change is an important issue that believe it or not, affects us today! 2023 was recorded as the warmest year in history and it's expected to only get worse from now")
+import time
+    
+time.sleep(8) # Wait for 8 seconds
+print(" ")
+print("Ok now let's try to differentiate democratic policies and republican policies!")
+import time
+    
+time.sleep(5) # Wait for 5 seconds
+print(" ")
+print("1. Same-sex couples should have the same rights  2. Marrige is between a man and woman")
+import time
+    
+time.sleep(5) # Wait for 5 seconds
+print("Which policy do you think is supported by the republican party?")
+answer = input("Policy #")
+if answer == "2":
+       print("That's right! The republican party believes federal tax benefits (including the ability to file joint federal income tax returns), military benefits, federal employment benefits, and immigration benefits should not be accesible to same-sex couples. ")
+else:
+        print("Actually, it was republicans who thought of excluding same-sex couples from federal tax benefits (including the ability to file joint federal income tax returns), military benefits, federal employment benefits, and immigration benefits.")
+        print(" ")
+import time
+    
+time.sleep(8) # Wait for 8 seconds    
+print("Ok last one!")
+import time
+    
+time.sleep(2) # Wait for 2 seconds
+print(" ")
+print("1. Gun Laws Should be Stricter  2. Gun Laws Should be less strict")
+print(" ")
+print("Which policy do you think is supported by the democratic party? ")
+answer = input("Policy #")
+if answer == "1":
+    print("That's the one! The democratic party wants to put limits on things like restrictions on the number or the amount of gun purchases, strict laws regarding the transportation of guns, and locked-up firearms around children.  ")
+else:
+    print("Actuallly its the democratic party's policy to put limits on things like restrictions on the number or the amount of gun purchases, strict laws regarding the transportation of guns, and locked-up firearms around children.")
