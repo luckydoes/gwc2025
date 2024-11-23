@@ -1,0 +1,40 @@
+print("learn about the USA future")
+
+answer= input("are you interested in project 2025? ")
+
+if answer == "yes":
+    print(" ")
+    print("Thats great")
+    answer_two= input("Do you know who wants to impliment it? ")
+    if answer_two == "yes":
+        print("thats great, kevin roberts, the director of the project, is estatic that the republican party won in the 2024 election")
+    elif answer_two == "no":
+        print("Thats okay, kevin roberts is the one who directed the project idea for the republican party and specifically Donald Trump")
+elif answer == "no":
+    print("thats ok then lets talk about climate change")
+    answer_three= input("do you know what causes it? ")
+    if answer_three == "yes":
+        print("thats good, there are so many causes like greenhouse gases,")
+    if answer_three == "no":
+        print("well fun fact, humans have been the leading cause of climate change since the industrial revolution")
+print(" ")
+print("do you know who's rights they're trying to take away?")
+print("1. LGBTQ+ individuals  2. Women")
+print("3. Immigrants          4. All of the above")
+print("")
+answer = input("Answer: ")
+if answer == "All of the above" or answer == "4" or answer == "1": 
+    print("That's right! They're taking many rights such as abortion, transgender expression and taking away the opportunity for immigrants to establish citizenship here")
+else:
+    print("That's true, but did you know they're trying to take away all of their rights? They're taking many rights such as abortion, transgender expression and taking away the opportunity for immigrants to establish citizenship here")
+print(" ")
+print("What do you think about climate change?")
+print("1. I don't really care                                                2. It's an issue but for future generations")
+print("3. It's a big issue we should be doing all that we can to prevent it  4. Honestly I don't know much about it")
+print(" ")
+answer = input("Answer: ")
+if answer == "1" or answer == "2" or answer == "3": 
+    print(" ")
+    print("Well it doesn't matter anyway because project 2025 is planning on cutting all efforts to combat it because they think it's a waste of money")
+else:
+    print("That's ok!, Climate change is an important issue that believe it or not, affects us today! 2023 was recorded as the warmest year in history and it's expected to only get worse from now")
