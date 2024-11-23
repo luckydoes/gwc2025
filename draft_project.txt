@@ -1,0 +1,16 @@
+print("learn about the USA future")
+
+answer= input("are you interested in project 2025? ")
+
+if answer == "yes":
+    print("thats great")
+    answer_two= input("do you know who wants to impliment it? ")
+    if answer_two == "yes":
+        print("thats great, kevin roberts is estatic that the republican party won in the 2024 election")
+    elif answer_two == "no":
+        print("thats okay, kevin roberts who directed the project idea for the replucan party")
+elif answer == "no":
+    print("then lets talk about climate change")
+    answer_three= input("do you know what causes it? ")
+    if answer_three == "yes":
+        print("thats good, there are so many causes like greenhouse gases,")
